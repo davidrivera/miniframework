@@ -12,7 +12,7 @@ $db_name = "";
 @mysql_connect ("$db_host","$db_username","$db_pass") or die ("Could not connect to MySQL");
 @mysql_select_db("$db_name") or die ("No database");
 // connect to database // 
-$ROOT= '/var/www/gameranker/';
+$ROOT= '/var/www/sitename/';
 
 include('user_ini.php');
 include("login_validation.php");
